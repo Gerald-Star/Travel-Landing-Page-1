@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Raleway:ital,wght@0,400;1,300&family=Roboto:wght@100;300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif; 
+    background: #dcc865;
+}
+
+/* nav bar */
+li, a, button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500; 
+    font-size: 15px;
+    color: blue;
+    text-decoration: none;
+}
+
+.nav_links {
+    list-style: none;
+    
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+
+
+.nav_links li a {
+    transition: all 0.2s ease 0s;
+
+}
+
+.nav_links li a:hover {
+    color: #4e4931
+
+}
+
+button {
+    padding: 6px 15px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    
+}
+
+button:hover {
+    background-color: #e4946d;
+}
+
+
+
+/* header with flex */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 4%;
+}
+
+
+/* logo */
+
+.logo {
+    cursor: pointer
+}
+
+
+/* main page learn this very well */
+.cover-page {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+
+.m-page{
+  width: 950px;
+  height: 450px;
+  background: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container{
+  height: 100%;
+  width: 50%;
+}
+
+.content{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text h1{
+  font-size: 40px;
+  line-height: 1;
+}
+.text p{
+  color: rgba(0, 0, 0, 0.6);
+  margin-top: 25px;
+  margin-bottom: 38px;
+}
+.text a{
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+  background-color: #e4946d;
+  transition: color 0.2s;
+  padding: 10px 20px;
+  border: 1px solid #e4946d;
+}
+.text a:hover, .text a:active{
+  background-color: #fff;
+  color: #8e0a0a;
+  cursor: pointer;
+}
+.photo{
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:  50% 50%;
+}
+.photo img{
+  width: 100%;
+  height: 100%;
+}
